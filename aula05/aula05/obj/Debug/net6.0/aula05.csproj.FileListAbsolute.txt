@@ -1,0 +1,15 @@
+C:\Users\vinic\OneDrive\Área de Trabalho\AcademiaAtos\aula05\aula05\obj\Debug\net6.0\aula05.csproj.AssemblyReference.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\AcademiaAtos\aula05\aula05\obj\Debug\net6.0\aula05.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinic\OneDrive\Área de Trabalho\AcademiaAtos\aula05\aula05\obj\Debug\net6.0\aula05.AssemblyInfoInputs.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\AcademiaAtos\aula05\aula05\obj\Debug\net6.0\aula05.AssemblyInfo.cs
+C:\Users\vinic\OneDrive\Área de Trabalho\AcademiaAtos\aula05\aula05\obj\Debug\net6.0\aula05.csproj.CoreCompileInputs.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\AcademiaAtos\aula05\aula05\bin\Debug\net6.0\aula05.exe
+C:\Users\vinic\OneDrive\Área de Trabalho\AcademiaAtos\aula05\aula05\bin\Debug\net6.0\aula05.deps.json
+C:\Users\vinic\OneDrive\Área de Trabalho\AcademiaAtos\aula05\aula05\bin\Debug\net6.0\aula05.runtimeconfig.json
+C:\Users\vinic\OneDrive\Área de Trabalho\AcademiaAtos\aula05\aula05\bin\Debug\net6.0\aula05.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\AcademiaAtos\aula05\aula05\bin\Debug\net6.0\aula05.pdb
+C:\Users\vinic\OneDrive\Área de Trabalho\AcademiaAtos\aula05\aula05\obj\Debug\net6.0\aula05.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\AcademiaAtos\aula05\aula05\obj\Debug\net6.0\refint\aula05.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\AcademiaAtos\aula05\aula05\obj\Debug\net6.0\aula05.pdb
+C:\Users\vinic\OneDrive\Área de Trabalho\AcademiaAtos\aula05\aula05\obj\Debug\net6.0\aula05.genruntimeconfig.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\AcademiaAtos\aula05\aula05\obj\Debug\net6.0\ref\aula05.dll
