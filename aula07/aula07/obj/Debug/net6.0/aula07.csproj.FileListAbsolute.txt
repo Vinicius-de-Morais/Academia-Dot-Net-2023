@@ -1,0 +1,15 @@
+C:\Users\vinic\OneDrive\Área de Trabalho\AcademiaAtos\aula07\aula07\bin\Debug\net6.0\aula07.exe
+C:\Users\vinic\OneDrive\Área de Trabalho\AcademiaAtos\aula07\aula07\bin\Debug\net6.0\aula07.deps.json
+C:\Users\vinic\OneDrive\Área de Trabalho\AcademiaAtos\aula07\aula07\bin\Debug\net6.0\aula07.runtimeconfig.json
+C:\Users\vinic\OneDrive\Área de Trabalho\AcademiaAtos\aula07\aula07\bin\Debug\net6.0\aula07.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\AcademiaAtos\aula07\aula07\bin\Debug\net6.0\aula07.pdb
+C:\Users\vinic\OneDrive\Área de Trabalho\AcademiaAtos\aula07\aula07\obj\Debug\net6.0\aula07.csproj.AssemblyReference.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\AcademiaAtos\aula07\aula07\obj\Debug\net6.0\aula07.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinic\OneDrive\Área de Trabalho\AcademiaAtos\aula07\aula07\obj\Debug\net6.0\aula07.AssemblyInfoInputs.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\AcademiaAtos\aula07\aula07\obj\Debug\net6.0\aula07.AssemblyInfo.cs
+C:\Users\vinic\OneDrive\Área de Trabalho\AcademiaAtos\aula07\aula07\obj\Debug\net6.0\aula07.csproj.CoreCompileInputs.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\AcademiaAtos\aula07\aula07\obj\Debug\net6.0\aula07.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\AcademiaAtos\aula07\aula07\obj\Debug\net6.0\refint\aula07.dll
+C:\Users\vinic\OneDrive\Área de Trabalho\AcademiaAtos\aula07\aula07\obj\Debug\net6.0\aula07.pdb
+C:\Users\vinic\OneDrive\Área de Trabalho\AcademiaAtos\aula07\aula07\obj\Debug\net6.0\aula07.genruntimeconfig.cache
+C:\Users\vinic\OneDrive\Área de Trabalho\AcademiaAtos\aula07\aula07\obj\Debug\net6.0\ref\aula07.dll
