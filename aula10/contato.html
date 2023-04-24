@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contato</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body style="display: flex;text-align: center ;flex-direction: column;">
+    <h1>Insira seu Contato</h1>
+    <form action="" method="POST" style="display: flex;flex-direction: column;">
+        
+        <div>
+            <label for="user[name]">Nome: </label>
+            <input type="text" id="user[name]" name="user[name]" required/>
+        </div>
+        
+        <div>
+            <label for="user[email]">Email: </label>
+            <input type="email" id="user[email]" name="user[email]" required/>
+        </div>
+        
+        <div>
+            <label for="user[address]">Endereço: </label>
+            <input type="text" id="user[address]" name="user[address]" required/>
+        </div>
+
+        <div>
+            <label for="user[password]">Senha: </label>
+            <input type="password" id="user[password]" name="user[password]"/>
+        </div>
+
+        <div>
+            <p>Sexo: </p>
+
+            <label for="user[gender]">Masculino</label>
+            <input type="radio" id="user[gender]" name="user[gender]" value="masculino"/>
+            
+            <label for="user[gender]">Feminino</label>
+            <input type="radio" id="user[gender]" name="user[gender]" value="feminino"/>
+        </div>
+
+        <div>
+            <label for="user[birth]">Aniversário: </label>
+            <input type="date" id="user[birth]" name="user[birth]"/>
+        </div>
+
+        <div>
+            <p>Interesses: </p>
+            <label for="user[interest][cinema]">Cinema </label>
+            <input type="checkbox" id="user[interest][cinema]" value="cinema" name="user[interest][cinema]" />
+            
+            <label for="user[interest][sports]">Esportes </label>
+            <input type="checkbox" id="user[interest][sports]" value="sports" name="user[interest][sports]" />
+            
+            <label for="user[interest][tech]">Tecnologia </label>
+            <input type="checkbox" id="user[interest][tech]" value="tech" name="user[interest][tech]" /> 
+        </div>
+
+        <div style="margin-top: 10px; margin-bottom: 10px;">
+            <label for="user[comment]">Deixe um comentário: </label>
+            <textarea type="text" id="user[comment]" ></textarea>
+        </div>
+
+        <footer>
+            <button type="submit">Enviar</button> <button type="reset">Limpar</button>
+        </footer>
+    </form>
+  </body>
+</html>
