@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(123, 195, 29);
+    color: #000;
+    justify-content: center;
+    display: flex;
+    
+    flex-direction: column;
+}
+
+h1{
+
+    color: #fafafa;
+}
+
+nav{
+    float: left;
+    /* position: absolute; */
+    background-color: rgb(170, 170, 170);
+    width: 20%;
+}
+
+.foucus{
+    font-weight: bold;
+}
+
+.upper{
+    text-transform: uppercase;
+}

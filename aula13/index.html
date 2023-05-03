@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Personal Blog</title>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <button onclick="exercicio()">click</button>
+    <p id="number"></p>
+
+    <div id="saldacao">Ola amigos</div>
+
+    <div class="coisas">coisas</div>
+
+    <label for="nome">Nome</label>
+    <input type="text" id="nome" onfocusout="toUpper()"/>
+    <label for="idade">idade</label>
+    <input type="number" id="idade"/>
+    <button onclick="exibe()">exibir</button>
+    <div id="content"></div>
+    <p>Exercicio 3</p>
+    <label for="number1">Numero 1</label>
+    <input type="text" id="number1" onfocusout="toUpper()"/>
+    <label for="number2">Numero 2</label>
+    <input type="number" id="number2"/>
+    <button id="somar" onclick="somar()">somar</button>
+    <div id="soma"></div>
+    <script>
+      var index = 1;
+      function exercicio() {
+        if (index == 6) return;
+        document.getElementById("number").innerHTML = index;
+        alert("O valor de i = " + index);
+        index++;
+
+        document.getElementById("saldacao").innerHTML = "Mudei a o elemento";
+      }
+
+      function toUpper(){
+        var nome = document.getElementById("nome");
+
+        nome.value = nome.value.toUpperCase();
+      }
+
+      function exibe(){
+        var nome = document.getElementById("nome").value;
+        var idade = document.getElementById("idade").value;
+
+        if(idade > 18)
+            document.getElementById("content").innerHTML = nome+" tem "+ idade+" anos e é maior de idade";
+        else
+            document.getElementById("content").innerHTML = nome+" tem "+ idade+" anos";
+
+      }
+
+      function somar(){
+        var number1 = document.getElementById("number1").value;
+        var number2 = document.getElementById("number2").value;
+        var soma = parseInt(number1) + parseInt(number2);
+
+        document.getElementById("soma").innerHTML = "A soma foi: "+ soma;
+        if(soma%2 == 0)
+            document.getElementById("somar").style = "background-color: green";
+        else
+            document.getElementById("somar").style = "background-color: red";
+      }
+    </script>
+  </body>
+  <script>
+    for (var i = 0; i < 10; i++) {
+      if (i % 2 == 0) console.log(i);
+    }
+  </script>
+</html>
