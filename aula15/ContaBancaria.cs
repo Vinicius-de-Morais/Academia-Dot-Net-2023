@@ -21,7 +21,7 @@ namespace aula15
 
         public void Sacar(double value)
         {
-            if(value < this.Saldo)
+            if(value < this.Saldo + this.Limite)
             {
                 this.Saldo -= value;
             }

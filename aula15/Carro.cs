@@ -12,6 +12,7 @@ namespace aula15
         private Marca _marca;
         private Motor _motor;
         private int _ano;
+        private int _velocidade;
 
         public string Nome
         {
@@ -29,10 +30,25 @@ namespace aula15
             set { _motor = value; }
         }
 
+        public int Velocidade { get => _velocidade; set => _velocidade = value; }
+
         private int Ano {
             get { return _ano; }
             set { _ano = value; }
         }
 
+        public void acelerar()
+        {
+            this.Velocidade += 10;
+        }
+
+        public void frear()
+        {
+            if(this.Velocidade - 10 < 0)
+            {
+                this.Velocidade = 0;
+            }else
+                this.Velocidade -= 10;
+        }
     }
 }
