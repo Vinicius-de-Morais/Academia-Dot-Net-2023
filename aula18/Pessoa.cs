@@ -41,7 +41,7 @@ namespace aula18
                     nameFormat = vetNome[0] + ".";
                 }
 
-                return nameFormat + this.DataNascimento+"@dominio.com.br";
+                return nameFormat + this.DataNascimento.Replace("/", "")+"@dominio.com.br";
             }
             catch
             {
@@ -51,7 +51,7 @@ namespace aula18
 
         public override string ToString()
         {
-            return Nome + " : " + Email;
+            return Nome + "|" + Email + "|" + DataNascimento;
         }
 
         public override bool Equals(object? obj)

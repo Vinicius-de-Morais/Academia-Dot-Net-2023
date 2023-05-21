@@ -1,0 +1,17 @@
+E:\Academia-Dot-Net-2023\aula21\obj\Debug\net6.0-windows\aula21.csproj.AssemblyReference.cache
+E:\Academia-Dot-Net-2023\aula21\obj\Debug\net6.0-windows\aula21.Register.resources
+E:\Academia-Dot-Net-2023\aula21\obj\Debug\net6.0-windows\aula21.csproj.GenerateResource.cache
+E:\Academia-Dot-Net-2023\aula21\obj\Debug\net6.0-windows\aula21.GeneratedMSBuildEditorConfig.editorconfig
+E:\Academia-Dot-Net-2023\aula21\obj\Debug\net6.0-windows\aula21.AssemblyInfoInputs.cache
+E:\Academia-Dot-Net-2023\aula21\obj\Debug\net6.0-windows\aula21.AssemblyInfo.cs
+E:\Academia-Dot-Net-2023\aula21\obj\Debug\net6.0-windows\aula21.csproj.CoreCompileInputs.cache
+E:\Academia-Dot-Net-2023\aula21\bin\Debug\net6.0-windows\aula21.exe
+E:\Academia-Dot-Net-2023\aula21\bin\Debug\net6.0-windows\aula21.deps.json
+E:\Academia-Dot-Net-2023\aula21\bin\Debug\net6.0-windows\aula21.runtimeconfig.json
+E:\Academia-Dot-Net-2023\aula21\bin\Debug\net6.0-windows\aula21.dll
+E:\Academia-Dot-Net-2023\aula21\bin\Debug\net6.0-windows\aula21.pdb
+E:\Academia-Dot-Net-2023\aula21\obj\Debug\net6.0-windows\aula21.dll
+E:\Academia-Dot-Net-2023\aula21\obj\Debug\net6.0-windows\refint\aula21.dll
+E:\Academia-Dot-Net-2023\aula21\obj\Debug\net6.0-windows\aula21.pdb
+E:\Academia-Dot-Net-2023\aula21\obj\Debug\net6.0-windows\aula21.genruntimeconfig.cache
+E:\Academia-Dot-Net-2023\aula21\obj\Debug\net6.0-windows\ref\aula21.dll
