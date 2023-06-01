@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Pessoa xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <nome>teste</nome>
+  <idade>12</idade>
+  <salario>1</salario>
+</Pessoa>

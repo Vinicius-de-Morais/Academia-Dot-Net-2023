@@ -1,6 +1,8 @@
+USE Academia_Atos;
+
 CREATE TABLE autor
 (
-	id INTEGER NOT NULL PRIMARY KEY IDENTITY,
+	id INTEGER NOT NULL PRIMARY KEY IDENTITY(1,1),
 	nome VARCHAR(256) NOT NULL,
 	nacionalidade VARCHAR(256) NOT NULL,
 );
@@ -30,46 +32,73 @@ CREATE TABLE livro
 
 CREATE TABLE livro_autor 
 (
-	id INTEGER NOT NULL PRIMARY KEY,
+	id INTEGER NOT NULL PRIMARY KEY IDENTITY(1,1),
 	fk_livro VARCHAR(20) NOT NULL,
 	fk_autor INTEGER NOT NULL,
 	FOREIGN KEY (fk_livro) REFERENCES livro(id),
 	FOREIGN KEY (fk_autor) REFERENCES autor(id)
 );
 
--------- ADICIONANDO VALORES
+/*insert*/
+insert into CATEGORIA values('Literatura Juvenil');
+insert into CATEGORIA values('Ficção Científica');
+insert into CATEGORIA values('Humor');
+insert into CATEGORIA values('Horror Cósmico');
+select * from CATEGORIA;
 
-INSERT INTO autor (nome, nacionalidade) VALUES ('João Silva', 'Brasil');
-INSERT INTO autor (nome, nacionalidade) VALUES ('Maria Santos', 'Portugal');
-INSERT INTO autor (nome, nacionalidade) VALUES ('John Smith', 'Estados Unidos');
+ 
 
-INSERT INTO editora (nome) VALUES ('Editora A');
-INSERT INTO editora (nome) VALUES ('Editora B');
-INSERT INTO editora (nome) VALUES ('Editora C');
+insert into AUTOR values('J.K.Rowling', 'Inglesa');
+insert into AUTOR values('Clive Staples Lewis', 'Americano');
+insert into AUTOR values('Affonso Solano', 'Brasileiro');
+insert into AUTOR values('Marcos Piangers', 'Brasileira');
+insert into AUTOR values('Marcos Piangers', 'Brasileira');
+insert into AUTOR values('Ciro Botelho - Tiririca', 'Brasileiro');
+insert into AUTOR values('Bianca Mól', 'Brasileiro');
+select * from AUTOR;
 
-INSERT INTO categoria (tipo_categoria) VALUES ('ficção científica');
-INSERT INTO categoria (tipo_categoria) VALUES ('literatura Juvenil');
-INSERT INTO categoria (tipo_categoria) VALUES ('humor');
+ 
 
-INSERT INTO livro (id, fk_editora, fk_categoria, titulo, ano_publicacao) VALUES (1, 1, 1, 'Livro 1', 2020);
-INSERT INTO livro (id, fk_editora, fk_categoria, titulo, ano_publicacao) VALUES (2, 2, 2, 'Livro 2', 2018);
-INSERT INTO livro (id, fk_editora, fk_categoria, titulo, ano_publicacao) VALUES (3, 3, 3, 'Livro 3', 2021);
+insert into EDITORA values('Rocco');
+insert into EDITORA values('Wmf Martins Fontes');
+insert into EDITORA values('Casa da Palavra');
+insert into EDITORA values('Belas Letras');
+insert into EDITORA values('Matrix');
+select *from EDITORA;
 
-INSERT INTO livro_autor (id, fk_livro, fk_autor) VALUES (1, 1, 1);
-INSERT INTO livro_autor (id, fk_livro, fk_autor) VALUES (2, 2, 2);
-INSERT INTO livro_autor (id, fk_livro, fk_autor) VALUES (3, 3, 3);
+ 
 
+insert into LIVRO values('8532511015',1,1,'Harry Potter e A Pedra','2000');
+insert into LIVRO values('9788578270698',1,2,'As Crônicas de Nárnia','2009');
+insert into LIVRO values('9788577343348',3,3,'O Espadachim de Carvão','2013');
+insert into LIVRO values('9788581742458',3,1,'O Papai É Pop','2015');
+insert into LIVRO values('9788582302026',4,2,'Pior Que Tá Não Fica','2015');
+insert into LIVRO values('9788577345670',2,3,'Garota Desdobrável','2015');
+insert into LIVRO values('8532512062',1,1,'Harry Potter e o Prisioneiro de Azkaban','2000');
+select *from LIVRO;
 
--------- COMANDOS PARA relacionar as tabelas
+ 
+
+insert into livro_autor(fk_livro, fk_autor) values('8532511015',1);
+insert into livro_autor(fk_livro, fk_autor) values('9788578270698',2);
+insert into livro_autor(fk_livro, fk_autor) values('9788577343348',3);
+insert into livro_autor(fk_livro, fk_autor) values('9788581742458',4);
+insert into livro_autor(fk_livro, fk_autor) values('9788582302026',5);
+insert into livro_autor(fk_livro, fk_autor) values('9788577345670',6);
+insert into livro_autor(fk_livro, fk_autor) values('8532512062',1);
+insert into livro_autor(fk_livro, fk_autor) values('8532512062',2);
+select *from livro_autor;
 
 -- 7
 SELECT * FROM Livro
 ORDER BY titulo;
 
 -- 8
-SELECT * FROM Livro
-LEFT JOIN autor
-ON livro.id = autor.id
+SELECT * FROM livro
+INNER JOIN livro_autor
+ON livro.id = livro_autor.fk_livro
+INNER JOIN autor
+ON autor.id = livro_autor.fk_autor
 ORDER BY autor.nome;
 
 -- 9
@@ -83,5 +112,3 @@ SELECT * FROM Livro
 LEFT JOIN categoria ON livro.fk_categoria = categoria.id
 WHERE Livro.ano_publicacao > 2000 AND Livro.ano_publicacao < 2010
 AND categoria.tipo_categoria LIKE '%humor%' OR categoria.tipo_categoria LIKE '%ficção científica%';
-
-

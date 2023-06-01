@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "3JmqX4ECwvFxiQXewVXi5dufmQzY1BN3Xl2elOtMq1PFXYjOhkpqme03miCS+zos2Fi1U7hMA9fvf6s7221dTQ==",
+  "success": true,
+  "projectFilePath": "E:\\Academia-Dot-Net-2023\\aula24\\aula24.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vinic\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\vinic\\.nuget\\packages\\soapformatter\\1.1.9\\soapformatter.1.1.9.nupkg.sha512"
+  ],
+  "logs": []
+}
