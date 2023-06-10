@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App28.IMC">
+    <ScrollView>
+        <StackLayout>
+            <Label Text="Welcome to Xamarin.Forms!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Label Text="Insira seu nome"/>
+            <Entry x:Name="name"/>
+            <Label Text="Insira sua idade"/>
+            <Entry x:Name="idade"/>
+            <Label Text="Insira seu peso"/>
+            <Entry x:Name="peso" Keyboard="Numeric"/>
+            <Label Text="Insira sua altura"/>
+            <Entry x:Name="altura" Keyboard="Numeric"/>
+            <Button x:Name="exec" Text="Gerar"></Button>
+            <Label x:Name="resultado" Text=""/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

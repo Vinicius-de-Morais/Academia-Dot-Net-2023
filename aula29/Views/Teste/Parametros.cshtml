@@ -1,0 +1,15 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<div>
+    Nome: @ViewData["name"] id: @ViewData["id"] <br />
+
+    @for (int i = (int) ViewData["id"]; i > 0; i--)
+    {
+        <p>Nome: @ViewData["name"] id: @ViewData["id"] Contador: @i</p><br />
+
+    }
+
+</div>

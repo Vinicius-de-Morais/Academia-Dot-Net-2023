@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App28.Page1">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Gerador de Email!"
+                VerticalOptions="Center"
+                HorizontalOptions="CenterAndExpand" />
+
+            <Label Text="Insira seu nome"/>
+            <Entry x:Name="name"/>
+            <Button x:Name="exec" Text="Gerar"></Button>
+            <Label x:Name="emailLabel" Text=""/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

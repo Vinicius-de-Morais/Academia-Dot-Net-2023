@@ -1,0 +1,17 @@
+E:\App28\App28\bin\Debug\netstandard2.0\App28.deps.json
+E:\App28\App28\bin\Debug\netstandard2.0\App28.dll
+E:\App28\App28\bin\Debug\netstandard2.0\ref\App28.dll
+E:\App28\App28\bin\Debug\netstandard2.0\App28.pdb
+E:\App28\App28\obj\Debug\netstandard2.0\App28.csproj.AssemblyReference.cache
+E:\App28\App28\obj\Debug\netstandard2.0\App28.GeneratedMSBuildEditorConfig.editorconfig
+E:\App28\App28\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\App28\App28\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\App28\App28\obj\Debug\netstandard2.0\App28.AssemblyInfoInputs.cache
+E:\App28\App28\obj\Debug\netstandard2.0\App28.AssemblyInfo.cs
+E:\App28\App28\obj\Debug\netstandard2.0\App28.csproj.CoreCompileInputs.cache
+E:\App28\App28\obj\Debug\netstandard2.0\XamlC.stamp
+E:\App28\App28\obj\Debug\netstandard2.0\App28.dll
+E:\App28\App28\obj\Debug\netstandard2.0\refint\App28.dll
+E:\App28\App28\obj\Debug\netstandard2.0\App28.pdb
+E:\App28\App28\obj\Debug\netstandard2.0\Page1.xaml.g.cs
+E:\App28\App28\obj\Debug\netstandard2.0\IMC.xaml.g.cs
